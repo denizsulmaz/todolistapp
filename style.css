@@ -1,0 +1,128 @@
+html{
+    height: 100%;
+    background: rgb(175,0,255);
+    background: linear-gradient(149deg, rgba(175,0,255,1) 0%, rgba(75,58,185,1) 100%);
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    color: #0f222d;
+    background-size: auto;
+  }
+
+  
+  .main{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+  }
+  h1{
+    text-align: center;
+    color: #fff;
+  }
+  form{
+      border-radius: 12px;
+    background-color: #fff;
+    padding: 15px;
+  }
+  input[type="text"]{
+    border-radius: 10px;  
+    width: 310px;
+    height: 30px;
+    outline: 0;
+    border: none;
+    font-size: 1.5em;
+    background: #fff;
+    color: #2f4f4f;
+  }
+  button{
+    font-size: 1.5em;
+    color: #ba53ff;
+    background-color: #fff;
+    outline: 0;
+    border: none;
+    width: 50px;
+  
+  }
+  .tasksBoard{
+      border-radius: 12px;
+    background-color: #fff;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    display: none;
+  
+  }
+  ul{
+    list-style: none;
+  }
+  li{
+    border-bottom: 1px solid #53BDFF;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 1.3em;
+    color: #2f4f4f;
+  }
+  a{
+    float: right;
+    text-align: right;
+    color: #ff6161;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+  .delete{
+    background-color: #ff6161;
+    padding: 0px 3px 0px 3px;
+    color: #fff;
+    cursor: pointer;
+  }
+  .logo{
+      position: absolute;
+      width: 3%;
+      left: 20px;
+      top: 20px;
+  }
+  address{
+      position: absolute;
+      bottom: 15px;
+      left: 20px;
+      font-size: 12px;
+  }
+  address a{
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+    font-weight: 550;
+  }
+  
+  @media (max-width: 500px) {
+    .main{
+      margin: 20% auto auto auto;
+      width: 100%;
+    }
+    input[type="text"]{
+      width: 80%;
+    }
+    button{
+      width: 10%;
+    }
+    .logo{
+        width: 9%;
+        left: 47%;
+        right: 50%;
+        position: fixed;
+    }
+    address{
+        position: absolute;
+        bottom: 15px;
+        left: 20px;
+        font-size: 8px;
+    }
+    address a{
+      font-size: 8px;
+      text-decoration: none;
+      color: black;
+      font-weight: 550;
+    }
+  }
